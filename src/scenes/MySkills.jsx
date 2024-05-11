@@ -1,6 +1,6 @@
+import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
-import { motion } from "framer-motion";
 
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
@@ -74,9 +74,9 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            <strong>ReactJS and Tailwind CSS.</strong>
+            "I excel in professional-grade React.js for front-end development
+            and leverage Tailwind CSS expertly for precise styling."
           </p>
         </motion.div>
 
@@ -102,9 +102,10 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            <strong>NodeJS with Express JS.</strong>
+            "In professional terms, I possess a comprehensive skill set
+            encompassing Node.js and Express.js, leveraging these technologies
+            proficiently for robust backend development."
           </p>
         </motion.div>
 
@@ -130,9 +131,10 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            <strong>MongoDB and PostgreSQL. </strong>
+            "I have professional proficiency in both MongoDB and PostgreSQL,
+            utilizing these databases adeptly for efficient data management and
+            storage in web development projects."
           </p>
         </motion.div>
       </div>
